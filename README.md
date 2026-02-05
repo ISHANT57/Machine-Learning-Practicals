@@ -87,9 +87,8 @@ R² ≈ 0.2365
 
 ### Graph Output
 
-Paste the generated graph here after running the code:
+<img width="795" height="519" alt="image" src="https://github.com/user-attachments/assets/6c19ede4-7beb-4e27-8524-66524e228b59" />
 
-![Regression Graph](paste-your-graph-image-here.png)
 
 ---
 
