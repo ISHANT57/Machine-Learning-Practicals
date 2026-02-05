@@ -7,11 +7,137 @@ To implement Multiple Linear Regression to predict Median House Value using 8 fe
 
 ---
 
-## Detailed Theory
+## Theory
 
-y = b0 + b1x1 + b2x2 + ... + bnxn
+🔹 What is Multiple Linear Regression?
 
-Evaluation using MSE and R².
+When multiple independent variables affect the dependent variable:
+
+𝑦
+=
+𝑏
+0
++
+𝑏
+1
+𝑥
+1
++
+𝑏
+2
+𝑥
+2
++
+⋯
++
+𝑏
+𝑛
+𝑥
+𝑛
+y=b
+0
+	​
+
++b
+1
+	​
+
+x
+1
+	​
+
++b
+2
+	​
+
+x
+2
+	​
+
++⋯+b
+n
+	​
+
+x
+n
+	​
+
+
+Where:
+
+𝑏
+0
+b
+0
+	​
+
+ = intercept
+
+𝑏
+𝑖
+b
+i
+	​
+
+ = coefficient of each feature
+
+🔹 Matrix Representation
+𝑌
+=
+𝑋
+𝑊
+Y=XW
+
+Solution using Normal Equation:
+
+𝑊
+=
+(
+𝑋
+𝑇
+𝑋
+)
+−
+1
+𝑋
+𝑇
+𝑌
+W=(X
+T
+X)
+−1
+X
+T
+Y
+🔹 Why Multiple Features?
+
+Real-world problems depend on many factors.
+Example: House price depends on income, rooms, age, location, etc.
+
+🔹 Evaluation Metrics
+
+Same metrics used:
+
+MSE — error measurement
+
+R² — how well model explains variance
+
+If:
+
+R² ≈ 0.60 → 60% variation explained
+
+Close Train/Test MSE → model is well generalized
+
+🔹 Perfect Fit Line (Graph Concept)
+
+In Actual vs Predicted graph, ideal points lie on:
+
+𝑦
+=
+𝑥
+y=x
+
+This is called Perfect Fit Line.
 
 ---
 
@@ -58,7 +184,8 @@ R² Test ≈ 0.595
 
 Paste the generated graph here after running the code:
 
-![Actual vs Predicted Graph](paste-your-graph-image-here.png)
+<img width="729" height="591" alt="image" src="https://github.com/user-attachments/assets/9f1e0429-9358-440b-ad87-d40addac4eb8" />
+
 
 ---
 
